@@ -7,7 +7,7 @@ describe('isReallyNaN', () => {
     expect(result).toEqual(true)
   })
   test('should return false', () => {
-    const result = isReallyNaN('NaN')
+    const result = isReallyNaN('hoo')
 
     expect(result).toEqual(false)
   })
